@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unisex Takı Modelleri | Unisex Jewelry Models</title>
+    <style>
+        /* Genel Stil */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .product {
+            display: inline-block;
+            width: 30%;
+            margin: 1%;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: #fff;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .lang-switch {
+            text-align: right;
+            margin: 0 10px;
+        }
+        .lang-switch a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Unisex Takı Modelleri | Unisex Jewelry Models</h1>
+    </header>
+
+    <!-- Dil Seçici -->
+    <nav>
+        <div>
+            <a href="#">Ana Sayfa | Home</a>
+            <a href="#products">Ürünler | Products</a>
+            <a href="#contact">İletişim | Contact</a>
+        </div>
+        <div class="lang-switch">
+            <a href="#">TR</a> | <a href="#">EN</a>
+        </div>
+    </nav>
+
+    <!-- Ana İçerik -->
+    <div class="container">
+        <h2>Öne Çıkan Modeller | Featured Models</h2>
+        
+        <!-- Ürünler -->
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="Minimalist Yüzük">
+            <h3>Minimalist Yüzük | Minimalist Ring</h3>
+            <p>Çelik ve deri kombinasyonuyla tasarımlanmış modern minimalist yüzük.</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="Vintage Kolye">
+            <h3>Vintage Kolye | Vintage Necklace</h3>
+            <p>Unisex tasarımıyla herkes için zarif bir vintage kolye modeli.</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="Bileklik">
+            <h3>Deri Bileklik | Leather Bracelet</h3>
+            <p>Hafif ve rahat unisex deri bileklik.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Unisex Takı Modelleri | All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
